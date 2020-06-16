@@ -1,0 +1,8 @@
+# Default ignored files
+python-food-data-pretreat/shelf/
+python-food-data-pretreat/workspace.xml
+# Datasource local storage ignored files
+python-food-data-pretreat/dataSources/
+python-food-data-pretreat/dataSources.local.xml
+# Editor-based HTTP Client requests
+python-food-data-pretreat/httpRequests/

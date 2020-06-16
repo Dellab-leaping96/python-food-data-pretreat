@@ -1,5 +1,5 @@
 # 면세여부 찾는 함수
-def find(String):
+def pre(String):
     tax = ""
     if String.find("과세")!=-1:
         tax = "N"
