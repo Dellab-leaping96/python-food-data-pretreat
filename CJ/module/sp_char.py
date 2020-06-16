@@ -5,3 +5,9 @@ def to_space(readData):
     text = re.sub(
         '[-=+,#/\?:^$.@*\"※~%ㆍ!』\\‘|\(\)\[\]\<\>`\'…》_]', ' ', readData)
     return text
+
+def ident_exist(raw):
+    pattern = re.compile('[_/*+0-9]')
+    is_spchar = pattern.search(raw)
+    if is_spchar: return True
+    else: return False

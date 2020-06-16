@@ -11,7 +11,7 @@ from module import stat
 
 output_excel = Workbook()
 output_sheet = output_excel.active
-output_sheet.title = '삼성'
+output_sheet.title = 'CJ'
 
 input_excel = load_workbook(os.getcwd()+"/input/CJ.xlsx", data_only=True)
 input_sheet = input_excel['CJ']
