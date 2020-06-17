@@ -21,7 +21,7 @@ def string(input_sheet,output_sheet,cnt):
     #1~5열 통합
     for i in range(1, 5):
         if input_sheet.cell(cnt, i).value:
-            raw += str(input_sheet.cell(cnt, i).value) + "/"
+            raw += str(input_sheet.cell(cnt, i).value) + " "
 
     #원본데이터 작성
     for i in range(1, 9):
