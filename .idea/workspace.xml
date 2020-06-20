@@ -3,14 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="8e7b36ac-62e5-41d6-8be9-65c1f54d8cc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CJ/module/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/CJ/module/init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CJ/module/pname.py" beforeDir="false" afterPath="$PROJECT_DIR$/CJ/module/pname.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CJ/module/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/CJ/module/prod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CJ/module/repwt.py" beforeDir="false" afterPath="$PROJECT_DIR$/CJ/module/wt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CJ/output/CJ_pname.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/CJ/output/CJ_pname.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CJ/output/CJ_prod.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/CJ/output/CJ_prod.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CJ/output/CJ_stat.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/CJ/output/CJ_stat.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CJ/output/CJ_tax.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/CJ/output/CJ_tax.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/input/CJ_prodissue.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/input/공.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/input/농.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/input/수.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/input/축.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/module/wt.py" beforeDir="false" afterPath="$PROJECT_DIR$/CJ/module/wt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/onlypname.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/onlyprod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/onlyprod_issue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/onlystat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/onlytax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/onlywt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/output/CJ_pname.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/output/CJ_prod.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/output/CJ_prodissue.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/output/CJ_stat.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/output/CJ_tax.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CJ/output/CJ_weight.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +51,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DeliveryLab\Desktop\Git\python-food-data-pretreat\CJ" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DeliveryLab\Desktop\Git\python-food-data-pretreat\CJ" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DeliveryLab\Desktop\Git\python-food-data-pretreat\CJ" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.onlyprod_issue (1)">
+  <component name="RunManager" selected="Python.pretreat1">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python-food-data-pretreat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,28 +73,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="onlypname" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-food-data-pretreat" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CJ" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CJ/onlypname.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="onlywt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="onlywt (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-food-data-pretreat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,7 +160,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\DeliveryLab\Desktop\Git\python-food-data-pretreat\CJ\onlywt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CJ/onlywt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pretreat1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-food-data-pretreat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CJ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CJ/pretreat1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,18 +193,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.onlywt" />
       <item itemvalue="Python.onlyprod" />
-      <item itemvalue="Python.onlypname" />
       <item itemvalue="Python.onlyprod_issue" />
       <item itemvalue="Python.onlyprod_issue (1)" />
+      <item itemvalue="Python.onlywt (1)" />
+      <item itemvalue="Python.pretreat1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pretreat1" />
+        <item itemvalue="Python.onlywt (1)" />
         <item itemvalue="Python.onlyprod_issue (1)" />
         <item itemvalue="Python.onlyprod_issue" />
         <item itemvalue="Python.onlyprod" />
-        <item itemvalue="Python.onlypname" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +230,8 @@
       <workItem from="1592344665804" duration="279000" />
       <workItem from="1592344971207" duration="6855000" />
       <workItem from="1592373690541" duration="599000" />
-      <workItem from="1592374418422" duration="949000" />
+      <workItem from="1592374418422" duration="6907000" />
+      <workItem from="1592650532187" duration="3977000" />
     </task>
     <servers />
   </component>
@@ -243,28 +255,32 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591960962895" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1592374292928">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1592660573888">
+      <screen x="-1920" y="5" width="1920" height="1040" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592374292928" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1592660573888" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592388024518" />
     <state width="1234" height="210" key="GridCell.Tab.0.bottom/1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1592352158498" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/1920.0.1536.816/0.0.1280.680@1920.0.1536.816" timestamp="1592356600019" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1592374292928">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1592660573888">
+      <screen x="-1920" y="5" width="1920" height="1040" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592374292928" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1536.824/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1592660573888" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592388024518" />
     <state width="1234" height="210" key="GridCell.Tab.0.center/1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1592352158498" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/1920.0.1536.816/0.0.1280.680@1920.0.1536.816" timestamp="1592356600019" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1592374292928">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1592660573888">
+      <screen x="-1920" y="5" width="1920" height="1040" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592374292928" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1536.824/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1592660573888" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592388024517" />
     <state width="1234" height="210" key="GridCell.Tab.0.left/1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1592352158498" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/1920.0.1536.816/0.0.1280.680@1920.0.1536.816" timestamp="1592356600019" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1592374292928">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1592660573888">
+      <screen x="-1920" y="5" width="1920" height="1040" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592374292928" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1536.824/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1592660573888" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592388024518" />
     <state width="1234" height="210" key="GridCell.Tab.0.right/1920.0.1536.816/0.0.1280.680@0.0.1280.680" timestamp="1592352158498" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/1920.0.1536.816/0.0.1280.680@1920.0.1536.816" timestamp="1592356600019" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1591961101012">
@@ -277,16 +293,18 @@
     <state x="647" y="141" width="681" height="594" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1592299282542" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_food_data_pretreat$onlyprod_issue__1_.coverage" NAME="onlyprod_issue (1) Coverage Results" MODIFIED="1592374196698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
+    <SUITE FILE_PATH="coverage/python_food_data_pretreat$onlyprod_issue__1_.coverage" NAME="onlyprod_issue (1) Coverage Results" MODIFIED="1592382544292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
+    <SUITE FILE_PATH="coverage/python_food_data_pretreat$onlytax.coverage" NAME="onlytax Coverage Results" MODIFIED="1591969554011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
+    <SUITE FILE_PATH="coverage/python_food_data_pretreat$onlystat.coverage" NAME="onlystat Coverage Results" MODIFIED="1591967375446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
+    <SUITE FILE_PATH="coverage/python_food_data_pretreat$onlywt__1_.coverage" NAME="onlywt (1) Coverage Results" MODIFIED="1592385608491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
     <SUITE FILE_PATH="coverage/python_food_data_pretreat$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1591964774372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/python_food_data_pretreat$onlywt_rep.coverage" NAME="onlywt_rep Coverage Results" MODIFIED="1592300177566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
     <SUITE FILE_PATH="coverage/python_food_data_pretreat$onlyprod.coverage" NAME="onlyprod Coverage Results" MODIFIED="1592352158489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
+    <SUITE FILE_PATH="coverage/python_food_data_pretreat$pretreat1.coverage" NAME="pretreat1 Coverage Results" MODIFIED="1592660079140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
     <SUITE FILE_PATH="coverage/python_food_data_pretreat$cal_wt.coverage" NAME="cal_wt Coverage Results" MODIFIED="1591964910598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ/module" />
     <SUITE FILE_PATH="coverage/python_food_data_pretreat$Previous_CJ.coverage" NAME="Previous_CJ Coverage Results" MODIFIED="1591964900780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
     <SUITE FILE_PATH="coverage/python_food_data_pretreat$repwt.coverage" NAME="repwt Coverage Results" MODIFIED="1591964784552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ/module" />
-    <SUITE FILE_PATH="coverage/python_food_data_pretreat$onlytax.coverage" NAME="onlytax Coverage Results" MODIFIED="1591969554011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
     <SUITE FILE_PATH="coverage/python_food_data_pretreat$onlywt_issue.coverage" NAME="onlywt_issue Coverage Results" MODIFIED="1592374114798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
-    <SUITE FILE_PATH="coverage/python_food_data_pretreat$onlystat.coverage" NAME="onlystat Coverage Results" MODIFIED="1591967375446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
     <SUITE FILE_PATH="coverage/python_food_data_pretreat$onlypname.coverage" NAME="onlypname Coverage Results" MODIFIED="1592351310634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CJ" />
   </component>
 </project>
