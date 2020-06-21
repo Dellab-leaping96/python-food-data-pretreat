@@ -2,7 +2,7 @@ import re
 
 # 중량 찾고 분리하는 함수
 def pre(raw):
-
+    keyword=""
     if raw == "":
         print("오류: 입력값 없음")
     else:
@@ -10,7 +10,8 @@ def pre(raw):
         #KG 이라는 단어가 포함되면 무조건 1kg임
         if raw.find("KG")!=-1:
             weight = "1kg"
-            return weight
+            keyword = "KG"
+            return weight,keyword
 
         #포함 안된경우 추출
         else:
@@ -61,4 +62,11 @@ def pre(raw):
             if clause:
                 weight = clause[index]
 
-            return weight
+                if weight.find("kg")!=-1:
+                    keyword = weight.replace("kg","Kg")
+                elif weight.find("l")!=-1 and weight.find("ml")==-1:
+                    keyword = weight.replace("l","L")
+                else:
+                    keyword = weight
+
+            return weight,keyword
