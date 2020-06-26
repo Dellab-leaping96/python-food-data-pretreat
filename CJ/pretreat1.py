@@ -6,13 +6,13 @@ import os
 import re
 
 #내부모듈
-from module import init
-from module import pname
-from module import prod
-from module import stat
-from module import tax
-from module import wt
-from module import det
+from module1 import init
+from module1 import pname
+from module1 import prod
+from module1 import stat
+from module1 import tax
+from module1 import wt
+from module1 import det
 
 output_excel = Workbook()
 output_sheet = output_excel.active

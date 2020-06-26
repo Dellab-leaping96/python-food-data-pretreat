@@ -6,9 +6,15 @@ import os
 import re
 
 #내부모듈
-from module import init
-from module import keyprod
-
+from module1 import init
+from module1 import pname
+from module1 import prod
+from module1 import stat
+from module1 import tax
+from module1 import wt
+from module1 import det
+from module2 import keyprod
+from module2 import patternprod
 
 output_excel = Workbook()
 output_sheet = output_excel.active
@@ -27,12 +33,19 @@ while input_sheet.cell(cnt, 1).value:
     print(cnt)#행 번호출력
     raw = init.string(input_sheet,output_sheet,cnt)#원본행 로드
 
-    producer,keyword1 = keyprod.pre(raw,keyword_sheet)
+    productName, keyword_1 = pname.pre(raw)
+    producer,keyword_2 = keyprod.pre(raw,keyword_sheet)
+    status, keyword_3 = stat.pre(raw)
+    taxataion, keyword_4 = tax.pre(raw)
+    weight, keyword_5 = wt.pre(raw)
+    detail = det.pre(raw, keyword_1, keyword_2, keyword_3, keyword_4, keyword_5)
 
     output_sheet.cell(cnt, 10, input_sheet.cell(cnt, 10).value)  #상품명
     output_sheet.cell(cnt, 11, input_sheet.cell(cnt, 11).value)  # 상품설명
     output_sheet.cell(cnt, 12, input_sheet.cell(cnt, 12).value)  # 중량
     output_sheet.cell(cnt, 13, producer)  #생산자명
+    if producer == "":
+        ptprodList = patternprod.match(raw, cnt, output_sheet)  # 생산자명 후보 작성
     output_sheet.cell(cnt, 14, input_sheet.cell(cnt, 14).value)  # 면과세여부
     output_sheet.cell(cnt, 15, input_sheet.cell(cnt, 15).value)  #보관상태
 
