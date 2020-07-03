@@ -17,6 +17,7 @@ def MSDB(cursor):
 def CJ(cursor):
     sql = '''  
                         CREATE TABLE cj (
+                            code int (10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
                             name varchar(30) ,
                             det varchar(50) ,
                             weight varchar(10) ,
